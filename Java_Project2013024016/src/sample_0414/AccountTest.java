@@ -1,0 +1,11 @@
+package sample_0414;
+
+public class AccountTest {
+		
+		public static void main(String[] args){
+			Account obj=new Account();//250 쪽위에 
+			obj.setName("Tom");
+			obj.setBalance(100000);
+			System.out.println("이름은 " + obj.getName()+" 통장잔고는 "+obj.getBalance()+"입니다.");
+	}
+}

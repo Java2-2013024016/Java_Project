@@ -3,12 +3,12 @@ package sample_0324;
 public class Array2{
 	public static void main(String[]args){
 
-		int[][] arrray2=new int[2][4];
+		int[][] array2=new int[2][4];
 
 		for (int i=0,r=1;i<2;i++){
 			for(int j=0;j<4;j++,r++){
-				array2[i][j]={r};
-				System.out.print(array[i][j]);
+				//array2[i][j]={r};
+				//System.out.print(array[i][j]);
 			}
 			System.out.println(" ");
 		}
